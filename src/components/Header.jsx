@@ -1,13 +1,13 @@
 import React from "react";
 import logo from "../images/logo.png";
-import { useLocation, useNavigate } from "react-router-dom";
+import {useLocation, useNavigate } from "react-router-dom";
 
 const Header = () => {
   const location = useLocation()
   const navigate = useNavigate()
-
-  function pathMathRoute(route) {
-    if (route === location.pathname) {
+  
+  function pathMathRoute(rr) {
+    if (rr === location.pathname) {
       return true;
     }
   }
@@ -28,7 +28,7 @@ const Header = () => {
           <ul className="flex space-x-10">
             <li
               className={`text-gray-400 font-semibold cursor-pointer py-3 border-b-[3px] border-b-transparent ${
-                pathMathRoute("/") && "text-black border-b-red-600"
+                pathMathRoute("/") && "text-black border-b-red-600 "
               }`}
               onClick={()=>navigate("/")}
             >
@@ -36,7 +36,7 @@ const Header = () => {
             </li>
             <li
               className={`text-gray-400 font-semibold cursor-pointer py-3 border-b-[3px] border-b-transparent ${
-                pathMathRoute("/login") && "text-black border-b-red-600"
+                pathMathRoute("/login") && "text-black border-b-red-600 "
               }`}
               onClick={()=>navigate("/login")}
             >
