@@ -108,39 +108,39 @@ const Home = () => {
         </div>
         <hr />
         <div>
-          <h1 className="mt-2 font-medium">CC2: Do you know about the Citizen's Charter?</h1>
+          <h1 className="mt-2 font-medium">CC2: If your answer to the previous question is Yes, did you see this office's CC?</h1>
          
             <ul className="px-3 py-2 text-center font-semibold rounded bg-yellow-400 text-black md:w-[67%] lg:w-[95vh] uppercase">
               <li className="flex items-center">
                   <input type="radio" value="cc2a" name="cc1" className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                  <label className="ml-1">1. Yes, aware before my transaction with this office.</label>
+                  <label className="ml-1">1. Yes, the CC was easy to find.</label>
               </li>
               <hr />
               <li className="flex items-center">
                   <input type="radio" value="cc2b" name="cc1" className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                  <label className="ml-1">2. Yes, but aware only when I saw the CC of this office.</label>
+                  <label className="ml-1">2. Yes, but the CC was hard to find.</label>
               </li>
               <hr />
               <li className="flex items-center">
                   <input type="radio" value="cc2c" name="cc1" className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                  <label className="ml-1">3. No, not aware of the CC. (Skip question CC2 nd CC3.)</label>
+                  <label className="ml-1">3. No, I did not see this office's CC.</label>
               </li>
             </ul>
     
         </div>
         <hr />
         <div>
-          <h1 className="mt-2 font-medium">CC2: Do you know about the Citizen's Charter?</h1>
+          <h1 className="mt-2 font-medium">CC3: If your answer to the previous question is Yes, did you use the CC as a guide for the services you availed?</h1>
          
             <ul className="px-3 py-2 text-center font-semibold rounded bg-yellow-400 text-black md:w-[67%] lg:w-[95vh] uppercase">
               <li className="flex items-center">
                   <input type="radio" value="cc2a" name="cc1" className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                  <label className="ml-1">1. Yes, aware before my transaction with this office.</label>
+                  <label className="ml-1">1. Yes, I was able to use the CC.</label>
               </li>
               <hr />
               <li className="flex items-center">
                   <input type="radio" value="cc2b" name="cc1" className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                  <label className="ml-1">2. Yes, but aware only when I saw the CC of this office.</label>
+                  <label className="ml-1">2. No, I was not able to use the CC.</label>
               </li>
             
             </ul>
