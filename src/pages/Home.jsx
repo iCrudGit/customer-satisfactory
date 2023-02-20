@@ -144,8 +144,47 @@ const Home = () => {
               </li>
             
             </ul>
+        </div>
+
+         <div className="mt-2">
+          <p className="md:w-[67%] lg:w-[95vh] text-gray-600">
+            <strong>Instructions:</strong> For the following items, put a check mark(check) on the column that best describes your satisfaction level. 
+          </p>
+         </div>
+
+        <div>
+          <h1 className="mt-2 font-medium">I am satisfied with the service that availed.</h1>
+         
+            <ul className="lg:flex lg:space-x-5 px-3 py-2 text-center font-semibold rounded bg-yellow-400 text-black md:w-[67%] lg:w-[95vh] uppercase">
+              <li className="flex items-center">
+                  <input type="radio" value="age1" name="age" className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Strongly Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="age2" name="age" className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="age3" name="age" className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Neither Agree nor Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="age4" name="age" className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Agree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="age5" name="age" className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Strongly Agree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="age6" name="age" className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Not aplicable</label>
+              </li>
+            </ul>
     
         </div>
+
+
       </div>
     </section>
   );
