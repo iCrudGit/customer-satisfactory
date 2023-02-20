@@ -22,7 +22,7 @@ const Home = () => {
         <div>
           <h1 className="mt-2 font-medium">Client Type:</h1>
          
-            <ul className="flex space-x-5 px-3 py-2 text-center font-semibold rounded bg-yellow-400 text-black md:w-[67%] lg:w-[95vh] uppercase">
+            <ul className="lg:flex lg:space-x-5 px-3 py-2 text-center font-semibold rounded bg-yellow-400 text-black md:w-[67%] lg:w-[95vh] uppercase">
               <li className="flex items-center">
                   <input type="radio" value="client" name="client" className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
                   <label className="ml-1">Client</label>
@@ -134,12 +134,12 @@ const Home = () => {
          
             <ul className="px-3 py-2 text-center font-semibold rounded bg-yellow-400 text-black md:w-[67%] lg:w-[95vh] uppercase">
               <li className="flex items-center">
-                  <input type="radio" value="cc2a" name="cc1" className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <input type="radio" value="cc3a" name="cc3" className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
                   <label className="ml-1">1. Yes, I was able to use the CC.</label>
               </li>
               <hr />
               <li className="flex items-center">
-                  <input type="radio" value="cc2b" name="cc1" className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <input type="radio" value="cc3b" name="cc3" className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
                   <label className="ml-1">2. No, I was not able to use the CC.</label>
               </li>
             
@@ -153,35 +153,319 @@ const Home = () => {
          </div>
 
         <div>
-          <h1 className="mt-2 font-medium">I am satisfied with the service that availed.</h1>
+          <h1 className="mt-2 font-medium text-blue-500 font-bold uppercase">1. I am satisfied with the service that availed.</h1>
          
-            <ul className="lg:flex lg:space-x-5 px-3 py-2 text-center font-semibold rounded bg-yellow-400 text-black md:w-[67%] lg:w-[95vh] uppercase">
+            <ul className="lg:flex lg:space-x-5 px-3 py-2 text-center font-medium rounded bg-yellow-100 text-black md:w-[67%] lg:w-[95vh] uppercase">
               <li className="flex items-center">
-                  <input type="radio" value="age1" name="age" className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <input type="radio" value="q1a" name="sa1" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
                   <label className="ml-1">Strongly Disagree</label>
               </li>
               <li className="flex items-center">
-                  <input type="radio" value="age2" name="age" className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <input type="radio" value="q1b" name="sa1" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
                   <label className="ml-1">Disagree</label>
               </li>
               <li className="flex items-center">
-                  <input type="radio" value="age3" name="age" className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <input type="radio" value="q1c" name="sa1" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
                   <label className="ml-1">Neither Agree nor Disagree</label>
               </li>
               <li className="flex items-center">
-                  <input type="radio" value="age4" name="age" className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <input type="radio" value="q1d" name="sa1" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
                   <label className="ml-1">Agree</label>
               </li>
               <li className="flex items-center">
-                  <input type="radio" value="age5" name="age" className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <input type="radio" value="q1e" name="sa1" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
                   <label className="ml-1">Strongly Agree</label>
               </li>
               <li className="flex items-center">
-                  <input type="radio" value="age6" name="age" className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <input type="radio" value="q1f" name="sa1" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
                   <label className="ml-1">Not aplicable</label>
               </li>
             </ul>
     
+        </div>
+
+        <div>
+          <h1 className="mt-2 font-medium text-blue-500 font-bold uppercase">2. I spent an acceptable amount of time for my transaction.</h1>
+         
+            <ul className="lg:flex lg:space-x-5 px-3 py-2 text-center font-medium rounded bg-yellow-100 text-black md:w-[67%] lg:w-[95vh] uppercase">
+              <li className="flex items-center">
+                  <input type="radio" value="q2a" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Strongly Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2b" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2c" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Neither Agree nor Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2d" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Agree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2e" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Strongly Agree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2f" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Not aplicable</label>
+              </li>
+            </ul>
+    
+        </div>
+
+        <div>
+          <h1 className="mt-2 font-medium text-blue-500 font-bold uppercase">3. The office accurately informed me and followed the transaction's requirements and steps. </h1>
+         
+            <ul className="lg:flex lg:space-x-5 px-3 py-2 text-center font-medium rounded bg-yellow-100 text-black md:w-[67%] lg:w-[95vh] uppercase">
+              <li className="flex items-center">
+                  <input type="radio" value="q2a" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Strongly Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2b" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2c" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Neither Agree nor Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2d" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Agree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2e" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Strongly Agree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2f" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Not aplicable</label>
+              </li>
+            </ul>
+    
+        </div>
+
+        <div>
+          <h1 className="mt-2 font-medium text-blue-500 font-bold uppercase">4. My online transaction (including steps and payment) was simple and convenient.</h1>
+         
+            <ul className="lg:flex lg:space-x-5 px-3 py-2 text-center font-medium rounded bg-yellow-100 text-black md:w-[67%] lg:w-[95vh] uppercase">
+              <li className="flex items-center">
+                  <input type="radio" value="q2a" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Strongly Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2b" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2c" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Neither Agree nor Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2d" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Agree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2e" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Strongly Agree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2f" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Not aplicable</label>
+              </li>
+            </ul>
+    
+        </div>
+
+        <div>
+          <h1 className="mt-2 font-medium text-blue-500 font-bold uppercase">5. I easily found information about my transaction from the office or its website.</h1>
+         
+            <ul className="lg:flex lg:space-x-5 px-3 py-2 text-center font-medium rounded bg-yellow-100 text-black md:w-[67%] lg:w-[95vh] uppercase">
+              <li className="flex items-center">
+                  <input type="radio" value="q2a" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Strongly Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2b" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2c" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Neither Agree nor Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2d" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Agree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2e" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Strongly Agree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2f" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Not aplicable</label>
+              </li>
+            </ul>
+    
+        </div>
+
+        <div>
+          <h1 className="mt-2 font-medium text-blue-500 font-bold uppercase">6. I paid an acceptable amount of fees for my transaction.</h1>
+         
+            <ul className="lg:flex lg:space-x-5 px-3 py-2 text-center font-medium rounded bg-yellow-100 text-black md:w-[67%] lg:w-[95vh] uppercase">
+              <li className="flex items-center">
+                  <input type="radio" value="q2a" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Strongly Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2b" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2c" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Neither Agree nor Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2d" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Agree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2e" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Strongly Agree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2f" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Not aplicable</label>
+              </li>
+            </ul>
+    
+        </div>
+
+        <div>
+          <h1 className="mt-2 font-medium text-blue-500 font-bold uppercase">7. I am confident that my online transaction was secure.</h1>
+         
+            <ul className="lg:flex lg:space-x-5 px-3 py-2 text-center font-medium rounded bg-yellow-100 text-black md:w-[67%] lg:w-[95vh] uppercase">
+              <li className="flex items-center">
+                  <input type="radio" value="q2a" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Strongly Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2b" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2c" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Neither Agree nor Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2d" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Agree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2e" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Strongly Agree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2f" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Not aplicable</label>
+              </li>
+            </ul>
+    
+        </div>
+
+        <div>
+          <h1 className="mt-2 font-medium text-blue-500 font-bold uppercase">8. The office's online support was available, or (if asked questions) was quick to respond.</h1>
+         
+            <ul className="lg:flex lg:space-x-5 px-3 py-2 text-center font-medium rounded bg-yellow-100 text-black md:w-[67%] lg:w-[95vh] uppercase">
+              <li className="flex items-center">
+                  <input type="radio" value="q2a" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Strongly Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2b" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2c" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Neither Agree nor Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2d" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Agree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2e" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Strongly Agree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2f" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Not aplicable</label>
+              </li>
+            </ul>
+    
+        </div>
+
+        <div>
+          <h1 className="mt-2 font-medium text-blue-500 font-bold uppercase">9. I got what I needed fron the government office.</h1>
+         
+            <ul className="lg:flex lg:space-x-5 px-3 py-2 text-center font-medium rounded bg-yellow-100 text-black md:w-[67%] lg:w-[95vh] uppercase">
+              <li className="flex items-center">
+                  <input type="radio" value="q2a" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Strongly Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2b" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2c" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Neither Agree nor Disagree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2d" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Agree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2e" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Strongly Agree</label>
+              </li>
+              <li className="flex items-center">
+                  <input type="radio" value="q2f" name="sa2" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                  <label className="ml-1">Not aplicable</label>
+              </li>
+            </ul>
+    
+        </div>
+
+        <div>
+            <div>
+              <h5 className="mt-2 font-bold text-xl">EMPLOYEE INFORMATION:</h5>
+            </div>
+          <div className="flex flex-col">
+            <div>
+                <input className="bg-gray-200 w-full md:w-[67%] lg:w-[80%] lg:ml-20 py-2 px-2 mb-2 mt-2 rounded" type="text" placeholder="Full Name"  />
+            </div>
+            <div>
+                <input className="bg-gray-200 w-full md:w-[67%] lg:w-[80%] lg:ml-20 py-2 px-2 mb-2 mt-2 rounded" type="text" placeholder="Contact No"  />
+            </div>
+          </div>
+        </div>
+
+        <div>
+            <div>
+              <h5 className="mt-2 font-bold text-xl">CSS-CODE:</h5>
+            </div>
+          <div className="flex flex-col">
+            <div>
+                <input className=" bg-gray-200 w-full md:w-[67%] lg:w-[80%] lg:ml-20 py-2 px-2 mb-2 mt-2 rounded" type="text" placeholder="Enter code here..."  />
+            </div>
+            <div>
+               <button className="w-full md:w-[67%] lg:w-[80%] lg:ml-20 text-xl bg-red-500 py-2 px-2 mb-5 font-semibold text-white rounded">SUBMIT DATA</button>
+            </div>
+          </div>
         </div>
 
 
