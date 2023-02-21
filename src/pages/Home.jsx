@@ -22,7 +22,24 @@ const Home = () => {
 
   const handleData = (e) =>{
     e.preventDefault();
-    console.log(client + ' ' + age + ' ' + fullname + ' ' + csscode);
+    console.log(
+      client + ' ' 
+      + age + ' ' 
+      + fullname + ' ' 
+      + csscode + ' ' 
+      + ccone + ' ' 
+      + cctwo + ' '
+      + ccthree + ' '
+      + saone + ' '
+      + satwo + ' '
+      + sathree + ' '
+      + safour + ' '
+      + safive + ' '
+      + sasix + ' '
+      + saseven + ' '
+      + saeight + ' '
+      + sanine + ''
+      );
   }
 
   return (
