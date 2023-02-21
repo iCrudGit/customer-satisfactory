@@ -50,7 +50,7 @@ const Home = () => {
           role="alert"
         >
           <h1 className="text-3xl mt-6 font-semibold">
-            [CSS] Customer Satisfactory Service Edit
+            [CSS] Customer Satisfactory Service Done okay
           </h1>
         </div>
 
